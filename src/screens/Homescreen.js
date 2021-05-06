@@ -27,7 +27,7 @@ export default () => {
         name="Home"
         component={Homescreen}
         options={{
-          title: '𑆯𑆳𑆫𑆢𑆳𑆥𑆵𑆜𑆁',
+          title: 'SSB Guide',
           headerStyle: {backgroundColor: PRIMARY_DARK_COLOR},
           headerTintColor: PRIMARY_TEXT_COLOR,
           headerTitleStyle: {fontWeight: 'bold'},
@@ -44,7 +44,7 @@ export default () => {
         name="LalVaakh"
         component={LalVaakhScreen}
         options={{
-          title: 'Team\'s Work',
+          title: "Team's Work",
           headerStyle: {backgroundColor: PRIMARY_DARK_COLOR},
           headerTintColor: PRIMARY_TEXT_COLOR,
           headerTitleStyle: {fontWeight: 'bold'},
@@ -81,9 +81,9 @@ const Homescreen = ({navigation}) => {
         <Grid>
           <Row>
             <Col style={styles.firstCol}>
-              <Text style={styles.headText}>𑇄</Text>
+              <Text style={styles.headText}>Jai Hind</Text>
               <Text style={styles.subHeadText}>
-              𑆯𑆳𑆫𑆢𑆳 𑆱𑆵𑆒𑆼𑆁 𑆯𑆳𑆫𑆢𑆳 𑆱𑆵𑆒𑆳𑆍𑆀
+              Free SSB Practice Tests 
               </Text>
             </Col>
           </Row>
@@ -99,7 +99,7 @@ const Homescreen = ({navigation}) => {
                     color={PRIMARY_MEDIUM_COLOR}
                     size={75}
                   />
-                  <Text style={styles.cellText}>Learn Sharda</Text>
+                  <Text style={styles.cellText}>OIR Test</Text>
                 </View>
               </TouchableOpacity>
             </Col>
@@ -110,11 +110,11 @@ const Homescreen = ({navigation}) => {
                 }}>
                 <View style={styles.cell}>
                   <MaterialCommunityIcons
-                    name="comment-text"
+                    name="library-books"
                     color={PRIMARY_MEDIUM_COLOR}
                     size={75}
                   />
-                  <Text style={styles.cellText}>Team's Work</Text>
+                  <Text style={styles.cellText}>PP&DT</Text>
                 </View>
               </TouchableOpacity>
             </Col>
@@ -128,11 +128,11 @@ const Homescreen = ({navigation}) => {
                 }}>
                 <View style={styles.cell}>
                   <MaterialCommunityIcons
-                    name="image-multiple"
+                    name="library-books"
                     color={PRIMARY_MEDIUM_COLOR}
                     size={75}
                   />
-                  <Text style={styles.cellText}>Gallery</Text>
+                  <Text style={styles.cellText}>WAT</Text>
                 </View>
               </TouchableOpacity>
             </Col>
@@ -147,7 +147,7 @@ const Homescreen = ({navigation}) => {
                     color={PRIMARY_MEDIUM_COLOR}
                     size={75}
                   />
-                  <Text style={styles.cellText}>Translator</Text>
+                  <Text style={styles.cellText}>SRT</Text>
                 </View>
               </TouchableOpacity>
             </Col>
