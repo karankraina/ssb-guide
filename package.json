@@ -1,6 +1,6 @@
 {
-  "name": "core_sharda_team",
-  "version": "0.0.1",
+  "name": "ssbguide",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
